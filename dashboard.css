@@ -1,0 +1,46 @@
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.side-bar{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-right: 1px solid green;
+}
+
+.side-bar ul{
+    display: block;
+    margin-left: -30px;
+}
+
+.logo img{
+    margin-left: 30px;
+    margin-top: 35px;
+    display: block;
+}
+
+.side-bar ul li{
+    list-style: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.4s;
+
+}
+.side-bar ul li:hover{
+    background: linear-gradient(#008232,#56C435);
+}
+.side-bar ul li:hover a{
+    color: white;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    margin-left: 20px;
+   
+}
